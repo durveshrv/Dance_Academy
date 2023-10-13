@@ -1,0 +1,36 @@
+.container{
+    min-height: 78.5vh;
+    margin:43px 0;
+}
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.myInput{
+    width: 40%;
+    padding:9px;
+    margin:8px;
+    font-size:16px;
+    border:2px solid rgb(159, 108, 108);
+    border-radius:12px;
+    outline:none;
+}
+.btn{
+    padding:12px;
+    font-size:18px;
+    border:2px solid black
+    ;
+    border-radius: 10px;
+    color:aliceblue;
+    background: tomato;
+    cursor:pointer;
+}

@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title Durvesh Dance academy.
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src="/static/dance2.jpg")
+                | DDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class info] 
+            li #[a(href="/") Contact us] 
+    section#introsection 
+        div Welcome to Durvesh's dance academy 
+        div.small Eat Sleep Dance Repeat
+    section#missionsection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/dance3.jpg")
+                div.card-content 
+                    p This is the best academy
+        div.card 
+            h3 Dance as the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/dance4.jpg")
+                div.card-content 
+                    p This is the best academy
+        div.card 
+            h3 Professional Coreography
+            div.card-box 
+                div.card-img 
+                    img(src="/static/dance5.jpg")
+                div.card-content 
+                    p This is the best academy
+    section#sponsorssection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/micro.jpg",alt="sponsor image",class="spImage")
+            img(src="/static/hp.jpg",alt="sponsor image",class="spImage")
+            img(src="/static/skype.jpg",alt="sponsor image",class="spImage")
+            img(src="/static/apple.jpg",alt="sponsor image",class="spImage")
+    footer#footer 
+        | Copyright © 2023 durveshdanceacademy.com| All right reserved
+    script
+      include ../static/index.js
